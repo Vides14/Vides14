@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Angie, con Amor</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(#ffe6e6, #ffe6f0);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 3s;
+    }
+    header {
+      background: #ff99cc;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 2em;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .poema, .frase {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+    .img-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>Para Angie, con Todo Mi Amor</header>
+  <section>
+    <!-- Poemas -->
+    <h2>Poemas</h2>
+    <div class="poema">1. Tu sonrisa es mi sol, que cada día ilumina mi corazón.</div>
+    <div class="poema">2. En tus ojos encuentro el hogar que nunca supe que buscaba.</div>
+    <div class="poema">3. Cada palabra tuya es un verso que se escribe en mi alma.</div>
+    <div class="poema">4. Eres la melodía perfecta en mi canción favorita.</div>
+    <div class="poema">5. Contigo, el tiempo se detiene y solo existe el amor.</div>
+    <div class="poema">6. En el jardín de mi vida, tú eres la flor más bella.</div>
+    <div class="poema">7. Tu amor me eleva más allá de las estrellas.</div>
+    <div class="poema">8. Tu voz es la calma que apacigua mis tormentas.</div>
+    <div class="poema">9. Eres mi sueño hecho realidad, mi destino, mi verdad.</div>
+    <div class="poema">10. Amar es decir Angie con el corazón lleno.</div>
+
+    <!-- Imágenes -->
+    <div class="img-container">
+      <img src="https://example.com/imagen1.jpg" alt="Imagen Romántica 1">
+      <img src="https://example.com/imagen2.jpg" alt="Imagen Romántica 2">
+    </div>
+
+    <!-- Frases -->
+    <h2>Frases de Amor</h2>
+    <div class="frase">1. Eres mi hoy y todos mis mañanas.</div>
+    <div class="frase">2. Amar es saber que tu nombre vive en mi corazón.</div>
+    <div class="frase">3. Cada latido me recuerda cuánto te amo.</div>
+    <div class="frase">4. Eres el sueño más bonito que jamás quise despertar.</div>
+    <div class="frase">5. Contigo, todo tiene sentido.</div>
+    <div class="frase">6. Mi lugar favorito es a tu lado.</div>
+    <div class="frase">7. Solo tú haces que mi mundo brille.</div>
+    <div class="frase">8. Eres la razón de mi sonrisa.</div>
+    <div class="frase">9. Mi vida cambió desde que llegaste.</div>
+    <div class="frase">10. Eres el amor que siempre soñé.</div>
+    <div class="frase">11. A tu lado, todo es mejor.</div>
+    <div class="frase">12. Te amo más de lo que las palabras pueden decir.</div>
+    <div class="frase">13. Tu amor es mi mayor tesoro.</div>
+    <div class="frase">14. Solo tú sabes amar con esa ternura infinita.</div>
+    <div class="frase">15. Tus abrazos son mi refugio.</div>
+    <div class="frase">16. Nadie me hace sentir como tú.</div>
+    <div class="frase">17. Eres el poema más hermoso que he leído.</div>
+    <div class="frase">18. Eres mi paz en este mundo loco.</div>
+    <div class="frase">19. Mi corazón siempre sabrá encontrarte.</div>
+    <div class="frase">20. En cada rincón de mi alma, estás tú.</div>
+  </section>
+</body>
+</html>
